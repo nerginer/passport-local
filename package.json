@@ -1,47 +1,15 @@
 {
-  "name": "passport-local",
-  "version": "1.0.0",
-  "description": "Local username and password authentication strategy for Passport.",
-  "keywords": [
-    "passport",
-    "local",
-    "auth",
-    "authn",
-    "authentication",
-    "username",
-    "password"
-  ],
-  "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jaredhanson/passport-local.git"
-  },
-  "bugs": {
-    "url": "http://github.com/jaredhanson/passport-local/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
-  "main": "./lib",
+  "name": "passport-local-examples-login",
+  "version": "0.0.0",
   "dependencies": {
-    "passport-strategy": "1.x.x"
+    "express": "~3.1.0",
+    "ejs": "~0.8.3",
+    "passport": "~0.1.15",
+    "passport-local": "~0.1.6",
+    "mongoose": "~3.5.5",
+    "bcrypt": "~0.7.3"
   },
   "devDependencies": {
-    "mocha": "1.x.x",
-    "chai": "1.x.x",
-    "chai-passport-strategy": "0.1.x"
-  },
-  "engines": {
-    "node": ">= 0.4.0"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+    "grunt": "~0.4.1"
   }
 }
